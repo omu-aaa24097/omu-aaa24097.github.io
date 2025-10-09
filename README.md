@@ -6,7 +6,7 @@
     <title>Phase 0-1: HTML基礎確認</title>
 </head>
 <body>
-    <></>
+    <img src="image.png" width="300" alt="うどん画像"></>
     <h1>🌐 Phase 0-1: HTML基礎確認</h1>
     <div>
         <h2>📝 課題1: 山田太郎</h2>
