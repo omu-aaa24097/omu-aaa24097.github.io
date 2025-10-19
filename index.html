@@ -23,6 +23,8 @@
         }
         //一秒ごとにupdateClock関数を実行
         setInterval(updateClock, 1000);
+        //ページ読み込み時に即座に表示
+        windouw.onload = updateClock;
     </script>
 </head>
 <body>
