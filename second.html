@@ -15,6 +15,13 @@
     <li>鹿児島</li>
   </ol>
 
+  <h2>BMI指標計算</h2>
+<form oninput="bmi.value = Math.round(Number(weight.value) / Math.pow(Number(height.value)/100, 2) * 10) / 10">
+    <p><label>体重(kg)：<input name="weight" type="number" step="any"></label></p>
+    <p><label>身長(cm)：<input name="height" type="number" step="any"></label></p>
+    <p><label>BMI：<output name="bmi"></output></label></p>
+</form>
+
   <a href="https://omu-aaa24097.github.io/index.html">好きな食べ物ページ<a>
 </body>
 </html>
