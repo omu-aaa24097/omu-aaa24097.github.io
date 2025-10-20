@@ -123,7 +123,7 @@ function updateItemList() {
         </div>
     `).join('');
     
-    listDiv.innerHTML = itemsHTML;
+    itemList.innerHTML = itemsHTML;
 }
 
 // 初期表示
