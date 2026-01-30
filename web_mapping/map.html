@@ -66,17 +66,6 @@
 //11-1
 
 //11-2
-            fetch('./P29-21.geojson') // 全国分の学校データ（5万件超）のGeoJSONを非同期読み込み
-                .then((res) => res.json())
-                .then((json) => {
-            // クラスタリングレイヤーを作成し地図に追加
-                const markers = L.markerClusterGroup()
-                .bindPopup(
-                    (layer) => layer.feature.properties.P29_004, // ポップアップで学校名を表示
-                )
-                .addTo(map);
-                L.geoJSON(json).addTo(markers); // クラスタリングレイヤーにGeoJSONデータをセット
-            });
 
 //11-3
             // KMLレイヤーを作成
