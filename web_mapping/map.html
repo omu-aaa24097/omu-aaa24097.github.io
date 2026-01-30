@@ -104,11 +104,6 @@
             });
 
 //12
-            var LayerControl = L.control.layers({
-               "地理院地図（標準）": chiriinLayer,
-                "OpenStreetMap": backgroundLayer
-            }).addTo(map);
-
 
             // GeoJSONレイヤーを作成
             fetch("./P29-21_27.geojson") // 学校データのGeoJSONを非同期読み込み
