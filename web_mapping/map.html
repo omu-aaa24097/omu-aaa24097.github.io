@@ -48,11 +48,7 @@
               }
             );
             // 地理院地図インスタンスへレイヤーを追加
-            map.addLayer(chiriinLayer);
-            L.control.layers({
-            "OpenStreetMap": backgroundLayer,
-             "地理院地図（標準）": chiriinLayer
-            }).addTo(map);
+
             // ピン定義
             const nakamozu_marker = L.marker([34.544865,135.506274]); // ピン＝Markerを初期化
             nakamozu_marker.bindPopup('なかもずキャンパスC棟'); // ポップアップを紐付け
